@@ -224,7 +224,9 @@ class ResultQuizView extends StatelessWidget {
                 ),
                 SizedBox(height: AppSize.hs20),
                 Text(
-                  "Clean code always looks like it was writhen by someone who cares.",
+                  score >= 5
+                      ? "Clean code always looks like it was writhen by someone who cares."
+                      : "Keep exploring and finding out more, Ready for another go?",
                   style: TextStyle(
                       fontSize: AppSize.hs18,
                       fontWeight: FontWeight.bold,
