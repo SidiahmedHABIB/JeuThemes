@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:jeu_themes/config/routing/routes_manager.dart';
 import '../../config/resources/assets_manager.dart';
 import '../../config/resources/values_manager.dart';
+import 'onboarding_view_model.dart';
 import 'widgets/button_widget.dart';
 
 class OnboardingView extends StatelessWidget {
@@ -37,6 +38,27 @@ class OnboardingView extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
+                GetBuilder<OnboardingViewModel>(builder: (controller) {
+                  return Positioned(
+                    left: AppSize.ws20,
+                    child: Container(
+                      width: AppSize.ws20 * 3,
+                      height: AppSize.ws20 * 3,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(AppSize.hs20),
+                      ),
+                      child: IconButton(
+                        onPressed: () => {},
+                        icon: Icon(
+                          Icons.language_rounded,
+                          color: Colors.green.shade700,
+                          size: AppSize.hs20 * 2,
+                        ),
+                      ),
+                    ),
+                  );
+                }),
                 Container(
                   width: MediaQuery.of(context).size.width / 1.2,
                   decoration: BoxDecoration(boxShadow: [
