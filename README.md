@@ -42,7 +42,7 @@ Bienvenue dans l'application ‎« Jeux Thèmes !»‎, Cette application Flutte
 - Clonez le dépôt‎ :
 
 ```
-git clone https://github.com/votre-nom/projet.git
+git clone https://github.com/SidiahmedHABIB/JeuThemes.git
 ```
 
 - Accédez au dossier du projet :‎
