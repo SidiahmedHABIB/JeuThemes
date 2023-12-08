@@ -5,10 +5,10 @@
 Bienvenue dans l'application ‎« Jeux Thèmes !»‎, Cette application Flutter a ‎été créée dans le but d'éduquer les utilisateurs sur les enjeux liés au changement climatique au ‎travers de quizzes interactifs. Les utilisateurs peuvent choisir entre deux thèmes graphiques ‎distincts.‎
 
 > scenario 1 :l'utilsateur gagne <br />
-> (![b1](https://github.com/emame-barikalla/test/assets/92339736/0b4e8e70-284e-4352-a372-8256a7980ddd)
+> ![b1](https://github.com/SidiahmedHABIB/e_commerce_app/assets/91164878/5d280d91-1aa7-4713-8fa0-dafca1c047ad)
 
 > scenario 2 : l'utilsateur echoue <br />
-> (![b2](https://github.com/emame-barikalla/test/assets/92339736/997d45e0-6015-4528-9e4e-4dc64b36c360)
+![b2](https://github.com/SidiahmedHABIB/e_commerce_app/assets/91164878/653349dc-3e3b-4113-a412-7b3de2d22d55)
 
 ## Technologies
 
